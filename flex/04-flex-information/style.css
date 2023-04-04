@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
 }
 
 img {
@@ -8,9 +9,25 @@ img {
 }
 
 .title {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
+/* Added container and put css to centralize image and text */
+.pot{
+  display: flex;
+  justify-content:center;
+  gap: 52px;
+  text-align: center;
+}
+/*Added width to items inside the pot container*/
+.plant{
+  width: 200px;
+}
+
+
 
 /* do not edit this footer */
 .footer {
@@ -24,3 +41,5 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+  
