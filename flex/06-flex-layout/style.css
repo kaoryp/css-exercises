@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  
 }
 
 button {
@@ -16,6 +17,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-size: large;
+  font-weight: 500;
+  padding: 10px 10px;
 }
 
 input {
@@ -24,4 +28,55 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/*edit*/
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12%;
+  gap: 8px;
+
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;  
+  display: flex;
+  align-items: flex-start;
+
+  
+}
+
+a {
+  /* this removes the line under the links */
+  text-decoration: none;
+  margin: 8px;
+  display: flex;
+  font-weight: bold;
+  color: #666565;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background-color: #eeeeee;
 }
