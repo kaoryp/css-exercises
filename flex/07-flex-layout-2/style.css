@@ -27,3 +27,66 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/*solution*/
+
+.text {
+  /*header text*/
+  font-weight:900;
+  font-size: 32px;
+  padding-left: 8px;
+  padding-top: 16px;
+}
+
+body {
+  /*body direction*/
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+}
+.card-box {
+  /*Card container*/
+  margin: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.sidebar{
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+a {
+  /*List text on sidebar*/
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+li {
+  /*Add separation on the bottom os list items*/
+  margin-bottom: 16px;
+
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none; 
+  margin: 0;
+  padding: 0; 
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
